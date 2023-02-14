@@ -36,8 +36,8 @@ body{
     width: 0;
     height: 0;
     border-radius: 50%;
-    left: 50%;
-    top: 50%;
+    left: var(--positoionX);
+    top: var(--positionY);
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
 }
