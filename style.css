@@ -36,13 +36,13 @@ body{
     width: 0;
     height: 0;
     border-radius: 50%;
-    left: var(--positoionX);
+    left: var(--positionX);
     top: var(--positionY);
     transform: translate(-50%, -50%);
-    transition: width .3s, height .3s;
+    transition: width .4s, height .4s;
 }
 
 .btn:hover::before{
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 600px;
 }
